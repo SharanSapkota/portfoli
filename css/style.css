@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+
+    height: 100vh;
+}
+
+.video-background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+
+}
+
+@media (min-aspect-ratio:16/9)
+{
+    .video-background
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9)
+{
+    .video-background
+    {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.logo{
+    margin: 25px;
+    height: 140px;
+}
+
+.welcome-msg{
+    position: relative;
+    text-align:center;
+    font-family: 'Julius Sans One', sans-serif;
+   
+    color: black;
+    top: 60px;
+}
+
+.welcome{
+    font-size: 50px;;
+}
+
+.paragraph-header{
+    font-size: 40px ;
+
+}
+ 
+.btn{
+    font-size:18px;
+    margin: 5px;
+    padding: 7px 22px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+
+.btn-first:hover{
+       
+    background: #2196f3;
+    box-shadow: 0 0 90px #2196f3, 0 0 140px #2196f3, 0 0 180px #2196f3;
+    transition-delay: 0s;
+    color: white;
+}
+
+.btn-second:hover{
+    color: white;
+    background:	#0f0707;
+    box-shadow: 0 0 90px #000000, 0 0 140px #000000, 0 0 180px 	#000000;
+    transition-delay: 0s;
+}
+
+.main-menu{
+    background:	none;
+}
+
+.logo-top{
+ margin: 40px;
+ height: 40px;
+}
+.logo1{
+ margin: 50px;
+ height: 100px;
+
+}
+
